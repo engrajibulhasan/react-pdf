@@ -3,10 +3,15 @@
 - [React PDF](https://github.com/wojtekmaj/react-pdf)
 ### How to use
 > Create new project 
-- ```npx create-react-app my-app```
+
+ ```npx create-react-app my-app```
+
 > Install react-pdf using 
-- ```npm install react-pdf``` or ```yarn add react-pdf```
+
+ ```npm install react-pdf``` or ```yarn add react-pdf```
+
 > Sample Example
+
 ```js
 import React, { useState } from 'react';
 import { Document, Page,pdfjs } from 'react-pdf';
