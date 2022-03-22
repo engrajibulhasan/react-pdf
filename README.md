@@ -8,7 +8,7 @@ I have faced some issues while using **react-pdf** and resoved those issues here
 
 > Install react-pdf using  ```npm install react-pdf``` or ```yarn add react-pdf```
 
-> Create pdf.worker.js inside public directory and  put those code from  [here](tree/master/public)
+> Create pdf.worker.js inside public directory and  put those code from  [here](https://github.com/engrajibulhasan/react-pdf/tree/master/public)
 
 > Create a scripts folder and create those files
 
