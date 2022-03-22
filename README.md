@@ -13,7 +13,7 @@ I have faced some issues while using **react-pdf** and resoved those issues here
 
 > Create a [script](https://github.com/engrajibulhasan/react-pdf/tree/master/scripts) directory and add those fille.
 
-### Sample Example code
+### Sample code Example 
 
 ```js
 import React, { useState } from 'react';
