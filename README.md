@@ -55,10 +55,10 @@ export default function Sample() {
   );
 }
 ``` 
-### Extra's
+
 I have added Paginations and filtering for making it more useful.
 Read [react-pdf](https://github.com/wojtekmaj/react-pdf) documentation for more advanced work.
 
-You can checkout my profile [www.rajibulhasan.me](https://rajibulhasan.me)
+Developer profile [www.rajibulhasan.me](https://rajibulhasan.me)
 
 
