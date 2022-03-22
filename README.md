@@ -4,13 +4,9 @@ I have faced some issues while using **react-pdf** and resoved those issues here
 ### Dependencies 
 - [React PDF](https://github.com/wojtekmaj/react-pdf)
 ### How to use
-> Create new project 
+> Create new project ```js npx create-react-app my-app```
 
- ```npx create-react-app my-app```
-
-> Install react-pdf using 
-
- ```npm install react-pdf``` or ```yarn add react-pdf```
+> Install react-pdf using  ```js npm install react-pdf``` or ```yarn add react-pdf```
 
 > Sample Example
 
