@@ -3,6 +3,7 @@ I have faced some issues while using **react-pdf** and resoved those issues here
 
 ### Dependencies 
 - [React PDF](https://github.com/wojtekmaj/react-pdf)
+
 ### How to use
 > Create new project ```npx create-react-app my-app```
 
@@ -12,7 +13,7 @@ I have faced some issues while using **react-pdf** and resoved those issues here
 
 > Create a [script](https://github.com/engrajibulhasan/react-pdf/tree/master/scripts) directory and add those fille.
 
-> Sample Example code
+### Sample Example code
 
 ```js
 import React, { useState } from 'react';
