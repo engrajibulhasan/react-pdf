@@ -1,4 +1,6 @@
 # react-pdf | Reading Pdf file uising React
+I have faced some issue using react-pdf and resoved the issues here. You can clone/fork this project and reuse easily or follw the ** instructions below **.
+
 ### Dependencies 
 - [React PDF](https://github.com/wojtekmaj/react-pdf)
 ### How to use
