@@ -3,7 +3,7 @@
   "version": "4.0.0",
   "description": "A sample page for React-PDF.",
   "private": true,
-  "main": "src/index.jsx",
+  "main": "src/Sample.js",
   "scripts": {
     "copy-cmaps": "node ./scripts/copy-cmaps.js",
     "copy-standard-fonts": "node ./scripts/copy-standard-fonts.js",

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { Button, Container } from "react-bootstrap";
-import { Document, Page, pdfjs } from "react-pdf";
-import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import ModalPagination from "./modal-pagination/ModalPagination";
 import ModalPreview from "./modal/ModalPreview";
-pdfjs.GlobalWorkerOptions.workerSrc = "pdf.worker.js";
+import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import { Document, Page, pdfjs } from "react-pdf";
+pdfjs.GlobalWorkerOptions.workerSrc = "./pdf.worker.js";
 
 
 
@@ -13,6 +13,10 @@ export default function Sample() {
   const [file, setFile] = useState("./sample.pdf");
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
+  function onDocumentLoadSuccess({ numPages }) {
+    console.log(numPages, "Number of pages");
+    setNumPages(numPages);
+  }
   // Handle File Ends
 
   // Handle Modal
@@ -27,10 +31,7 @@ export default function Sample() {
   const handleShowPaginationModal = () => setShowPaginationModal(true);
   // Handle Pagination Modal ends
 
-  function onDocumentLoadSuccess({ numPages }) {
-    console.log(numPages, "Number of pages");
-    setNumPages(numPages);
-  }
+  
   console.log(show,"showing");
   return (
     <Container>
