@@ -11,7 +11,6 @@ I have faced some issues while using **react-pdf** and resoved those issues here
 
 > Create ```pdf.worker.js``` inside public directory and  put those code from  [pdf.worker.js](https://github.com/engrajibulhasan/react-pdf/blob/master/public/pdf.worker.js)
 
-> Create a [script](https://github.com/engrajibulhasan/react-pdf/tree/master/scripts) directory and add those fille.
 
 ### Sample code Example 
 

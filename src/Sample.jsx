@@ -6,11 +6,7 @@ import ModalPagination from "./modal-pagination/ModalPagination";
 import ModalPreview from "./modal/ModalPreview";
 pdfjs.GlobalWorkerOptions.workerSrc = "pdf.worker.js";
 
-const options = {
-  cMapUrl: "cmaps/",
-  cMapPacked: true,
-  standardFontDataUrl: "standard_fonts/",
-};
+
 
 export default function Sample() {
   // Handle File
