@@ -20,11 +20,6 @@ import { Document, Page,pdfjs } from 'react-pdf';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 pdfjs.GlobalWorkerOptions.workerSrc = 'pdf.worker.js';
 
-const options = {
-  cMapUrl: 'cmaps/',
-  cMapPacked: true,
-  standardFontDataUrl: 'standard_fonts/',
-};
 
 export default function Sample() {
   const [file, setFile] = useState('./sample.pdf');
